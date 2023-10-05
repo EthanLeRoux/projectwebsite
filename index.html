@@ -1,32 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/main.css">
     <link rel="stylesheet" href="public/css/button.css">
-    <title>Nkwali Yenkosi</title>
-    <link rel = "stylesheet" href="public/css/head.css">
+    <title>Shop Now</title>
+    <link rel="stylesheet" href="public/css/head.css">
     <script src="public/scripts/button.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="list.css">
 </head>
 
 <body>
-<h2>Github Tests</h2>
-<nav>
-    <ul>
-        <li><a href="shopping.html" target="_blank">Shopping</a></li>
-        <li><a href="Checkout.html" target="_blank">Checkout</a></li>
-        <li><a href="thankYou.html" target="_blank">Thank you</a></li>
-    </ul>
-</nav>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <!--logo's image-->
+        </div>
+        <ul class="social-media">
+            <li><a href="https://www.instagram.com/" target=_blank><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/" target=_blank><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/" target=_blank><i class="fa-brands fa-facebook"></i></a></li>
 
-<ul>
-    <li>Jacket</li>
-    <li>Cap</li>
-    <li>Trouser</li>
-</ul>
-<button id="test_button" class="test_btn">Da Button</button>
+        </ul>
+    </nav>
+
+
+    <head>
+        <h2>Inkwali Yenkosi</h2>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About the leather</a></li>
+                <li><a href="#diy">DIY Method</a></li>
+                <li><a href="#B&M">Brick and Mortar</a></li>
+                <li><a href="#order">Shop Now</a></li>
+            </ul>
+        </nav>
+    </head>
+
+    <!--header section ends here-->
+
+
+
+    <ul>
+        <li>Jacket</li>
+        <li>Cap</li>
+        <li>Trouser</li>
+    </ul>
+    <button id="test_button" class="test_btn">Da Button</button>
+
+
+
+
+
+
+
+    <!--Chekout/shopping Form starts here-->
+
+    <h3>checkout-form</h3>
+    <form id="checkout-form">
+
+        <p>Just one more step....
+        <p>
+        <p>before your new leather jackets can leave we need you to fill in the following form</p>
+
+        <h3>Customer Information</h3>
+        <div class="form-group">
+            <input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+            <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number" required>
+        </div>
+
+        <h3>Shipping Details</h3>
+        <div class="form-group">
+            <input type="text" id="street" name="street" placeholder="Street Number and Name" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="city" name="city" placeholder="City" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="suburb" name="suburb" placeholder="Suburb" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="province" name="province" placeholder="Province" required>
+        </div>
+
+        <h3>Billing Details</h3>
+        <div class="form-group">
+            <input type="text" id="card-name" name="card-name" placeholder="Name on Card" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="card-number" name="card-number" placeholder="Credit Card Number" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="expire-date" name="expire-date" placeholder="Expire Date (MM/YY)" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+        </div>
+
+        <button type="submit">Ship off</button>
+    </form>
+
+    <!--Checkout/shopping form ends here-->
+
+    <script>
+        document.getElementById('test_button').addEventListener('click', function () {
+            alert('something(anything random text)');
+        });
+    </script>
+
 </body>
 
 </html>
