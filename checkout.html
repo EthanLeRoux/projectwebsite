@@ -1,12 +1,8 @@
-<!--Chekout/shopping Form starts here-->
+<h2>Just one more step....</h2>
 
-<h3>checkout-form</h3>
-        
+<p>before your new leather jackets can leave we need you to fill in the following form</p>
+
 <form id="checkout-form" action="./thankyou.html">
-
-    <p>Just one more step....
-    <p>
-    <p>before your new leather jackets can leave we need you to fill in the following form</p>
 
     <h3>Customer Information</h3>
     <div class="form-group">
@@ -47,5 +43,14 @@
         <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
     </div>
 
-    <button type="submit">Ship off</button>
+    <div class="form-group">
+        <label>Do you agree to our <a href="#">Terms and Conditions</a></label><br>
+        <label for="agree-yes"><input type="radio" id="agree-yes" name="terms-agreement" value="yes" required>
+            Yes</label>
+        <label for="agree-no"><input type="radio" id="agree-no" name="terms-agreement" value="no" required> No</label>
+    </div>
+
+    <button class="submit" type="submit">Ship off</button>
+
+
 </form>
