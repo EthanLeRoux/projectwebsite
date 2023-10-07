@@ -1,0 +1,12 @@
+.content{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.block00{
+    border-block: 5px solid rgb(105, 105, 105);
+    border: 5px solid rgb(105, 105, 105);
+    text-align: center;
+}
