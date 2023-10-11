@@ -1,3 +1,9 @@
 body{
-    background-color: burlywood;
+    background-color: wheat;
+}
+.content{
+    margin: 70px;
+}
+.bags img{
+    width: 100%;
 }
