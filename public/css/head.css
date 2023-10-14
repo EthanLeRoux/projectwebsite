@@ -1,8 +1,7 @@
 nav{
     background-color: black;
-    padding: 50px;
     font-family: 'DM Serif Display', serif;
-    text-align: center;
+    /* text-align: center; */
 
 }
 
@@ -13,7 +12,6 @@ nav{
 
     .logo{
         font-size: 50px;
-        padding: 5px;
     }
 
     .nav01{
