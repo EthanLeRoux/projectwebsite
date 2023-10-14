@@ -23,3 +23,7 @@ body{
 .dropdown:hover .dropdown-content {
     display: inline-block;
 }
+
+.test_btn{
+    border:none;
+}

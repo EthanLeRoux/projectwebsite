@@ -1,17 +1,17 @@
 .content{
     margin: 70px;
 }
-.bags img{
+/* .bags img{
     width: 100%;
-}
+} */
 
-.bag1 img{
+/* .bag1 img{
     width: 300px;
     height: 300px;   
     flex-basis: 30%;
      margin-bottom: 30px;
-}
-.bag2 img{
+} */
+/* .bag2 img{
     width: 300px;
     height: 300px;   
     flex-basis: 30%;
@@ -22,4 +22,4 @@
     height: 300px;   
     flex-basis: 30%;
      margin-bottom: 30px;
-}
+} */
