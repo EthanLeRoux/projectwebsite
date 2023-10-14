@@ -25,9 +25,13 @@ nav{
 }
 
 nav .dropdownIcon{
-  grid-column-start: 4;
+  grid-column-start: 3;
 }
 
 h4{
   color: white;
+}
+
+#myDIV{
+  display: none;
 }
