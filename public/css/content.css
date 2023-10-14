@@ -34,4 +34,9 @@ h4{
 
 #myDIV{
   display: none;
+  background-color: black;
+  float: right;
+  padding: 10px;
+  height: 200px;
+  width: 200px;
 }
