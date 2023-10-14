@@ -20,7 +20,7 @@ body{
 }
 
 /* Adjust the hover selector to show the dropdown */
-.dropdown:hover .dropdown-content {
+.dropdown:onclick .dropdown-content {
     display: inline-block;
 }
 

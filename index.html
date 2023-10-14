@@ -20,41 +20,20 @@
 </head>
 
 <body>
-    <!-- 
-         <nav>
-        <a href="index.html" class="logo">Inkwali Yenkosi</a>
-        <div class="dropdown">
-              <span><img src="/public/img/icons/dropDownMenu.png" alt="" height="40px" width="40px" id="dropdownIcon" class="dropdownIcon"></span>
-              <div class="dropdown-content">
-                    <a href="#about">About the leather</a><br>
-                    <a href="#diy">DIY Method</a><br>
-                    <a href="#B&M">Brick and Mortar</a><br>
-                    <a href="#order">Shop Now</a><br>
-              </div>
-            </div>
-        
-        
-    </nav>
-
-
-     -->
-
-     <!-- Inside your <nav> element -->
         <nav>
-            <span>
             <a href="index.html" class="logo">Inkwali Yenkosi</a>
-<div class="dropdown">
-    <span><img src="/public/img/icons/dropDownMenu.png" alt="" height="40px" width="40px" id="dropdownIcon" class="dropdownIcon"></span>
-    <div class="dropdown-content">
-        <!-- Your dropdown menu links here -->
-        <a href="#about">About the leather</a><br>
-        <a href="#diy">DIY Method</a><br>
-        <a href="#B&M">Brick and Mortar</a><br>
-        <a href="#order">Shop Now</a><br>
-        <a href="checkout.html">Checkout</a><br>
+    <div class="dropdown">
+        <img src="/public/img/icons/dropDownMenu.png" alt="" height="40px" width="40px" id="dropdownIcon" class="dropdownIcon" onclick="myFunction()">
+
+        <div id="myDIV">
+            <h4>Menu</h4>
+            <a href="#about">About the leather</a><br>
+            <a href="#diy">DIY Method</a><br>
+            <a href="#B&M">Brick and Mortar</a><br>
+            <a href="#order">Shop Now</a><br>
+            <a href="checkout.html">Checkout</a><br>
+        </div>
     </div>
-</div>
-</span>
 </nav>
    
 
@@ -160,9 +139,14 @@
     <!--Checkout/shopping form ends here-->
 
     <script>
-        document.getElementById('test_button').addEventListener('click', function () {
-            alert('something(anything random text)');
-        });
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
     </script>
 
 

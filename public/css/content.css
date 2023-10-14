@@ -16,3 +16,18 @@
 .banner{
   max-width:max-content;
 }
+
+nav{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+nav .dropdownIcon{
+  grid-column-start: 4;
+}
+
+h4{
+  color: white;
+}
