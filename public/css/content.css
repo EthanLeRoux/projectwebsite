@@ -19,24 +19,29 @@
 
 nav{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 0px;
   grid-auto-rows: minmax(100px, auto);
 }
-
-nav .dropdownIcon{
-  grid-column-start: 3;
+.logo{
+  grid-column: 2/4;
+}
+.dropdown{
+  grid-column-start: 4;
 }
 
 h4{
   color: white;
 }
 
-#myDIV{
+#dropdownMenu{
   display: none;
   background-color: black;
-  float: right;
-  padding: 10px;
-  height: 200px;
+  /* grid-column-start: 4; */
+  padding: 20px;
+  height: 250px;
   width: 200px;
+  text-align: center;
+  list-style-type: none;
+  position: fixed;
 }
