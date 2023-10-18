@@ -29,7 +29,7 @@ nav{
   }
   
 .cart {
-    position: relative;
+    /* position: relative; */
     background-color: #fff;
     color: #212529;
     font-size: 30px;
