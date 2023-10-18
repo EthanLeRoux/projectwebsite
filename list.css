@@ -87,9 +87,6 @@
     border-bottom: 1px solid #ccc; /* Optional: Add a border between dropdown items */
 }
 
-.dropdown li:last-child {
-    border-bottom: none; /* Remove border from the last item */
-}
 
 
 
