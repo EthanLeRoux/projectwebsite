@@ -4,21 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/css/main.css">
-    <link rel="stylesheet" href="public/css/button.css">
-    <title>Shop Now</title>
-    <link rel="stylesheet" href="public/css/head.css">
+    <title>Thank you page</title>
     <script src="public/scripts/button.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="index.html">
-    <link rel="stylesheet" href="thankyou.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <script src="public/scripts/button.js"></script>
+        <link rel="stylesheet" href="public/css/content.css">
+        <link rel="stylesheet" href="public/css/footer.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="stylesheet" href="index.html">
+        <link rel="stylesheet" href="thankyou.css">
+        <link rel="stylesheet" href="list.css">
+        <link rel="stylesheet" href="public/css/main.css">
+        <link rel="stylesheet" href="public/css/button.css">
+        <link rel="stylesheet" href="public/css/head.css">
 
 </head>
 
 <body>
+    
+    <header>
+        <nav>
+            <ul class="social-media">
+                <a href="https://www.instagram.com/" target=_blank><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/" target=_blank><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" target=_blank><i class="fa-brands fa-facebook"></i></a>
+
+            </ul>
+
+            
+            <a href="index.html" class="logo"><img src="/public/img/icons/rhinoLogo.png" width="700px" height="80px"></a>
+            <div class="dropdown">
+                <img src="/public/img/icons/dropDownMenu.png" alt="" height="40" width="40" id="dropdownIcon"
+                    class="dropdownIcon" onclick="toggleMenu()">
+                <ul id="dropdownMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About the leather</a></li>
+                    <li><a href="#diy">DIY Method</a></li>
+                    <li><a href="#B&M">Brick and Mortar</a></li>
+                    <li><a href="#order">Shop Now</a></li>
+                </ul>
+            </div>
+        </nav>
+                
+    </header>
+
     <div class="popup">
         <img src="images/check.png">
         <h2> Thank you</h2>

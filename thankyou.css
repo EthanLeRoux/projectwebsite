@@ -26,7 +26,7 @@ body {
 
 .popup img{
     width: 100px;
-    margin-top: -50px;
+    margin-top: -27px;
     border-radius: 50%;
     box-shadow: 0 2px 5px rgba(0,0,0, 0.2);
 }
@@ -42,7 +42,7 @@ body {
     width: 100%;
     margin-top: 50px;
     padding: 10px 0;
-    background: rgb(235, 159, 18);
+    background: black;
     color: #fff;
     border: 0;
     outline: none;
