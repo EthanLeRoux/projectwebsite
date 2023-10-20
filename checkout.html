@@ -206,43 +206,45 @@ a:hover {
             <button class="btn" type="submit">Ship off</button>
         </form>
     </div>
+
+    <script>
+    
+        document.addEventListener('DOMContentLoaded', function () {
+         // Get the radio buttons for terms agreement
+         const agreeYes = document.getElementById('agree-yes');
+         const agreeNo = document.getElementById('agree-no');
+ 
+         // Get the "Ship off" button
+         const shipOffBtn = document.querySelector('.btn');
+ 
+         // Add an event listener to the radio buttons to check the agreement status
+         agreeYes.addEventListener('change', function () {
+             shipOffBtn.disabled = false; // Enable the button when "Yes" is selected
+         });
+ 
+         agreeNo.addEventListener('change', function () {
+             shipOffBtn.disabled = true; // Disable the button when "No" is selected
+         });
+     });
+ </script>
+ 
+ <script>
+     // Initialize Flatpickr for the "Expire Date" input
+     flatpickr("#expire-date", {
+         dateFormat: "m/y",
+         minDate: new Date(),
+         maxDate: new Date().setFullYear(new Date().getFullYear() + 10), // Set the maximum date to 10 years in the future
+         onOpen: function (selectedDates, dateStr, instance) {
+             instance.redraw(); // Redraw the calendar when opened to ensure it's displayed correctly
+         },
+     });
+ </script>
     </body>
     </html>
     
     
 
-<script>
-    
-       document.addEventListener('DOMContentLoaded', function () {
-        // Get the radio buttons for terms agreement
-        const agreeYes = document.getElementById('agree-yes');
-        const agreeNo = document.getElementById('agree-no');
 
-        // Get the "Ship off" button
-        const shipOffBtn = document.querySelector('.btn');
-
-        // Add an event listener to the radio buttons to check the agreement status
-        agreeYes.addEventListener('change', function () {
-            shipOffBtn.disabled = false; // Enable the button when "Yes" is selected
-        });
-
-        agreeNo.addEventListener('change', function () {
-            shipOffBtn.disabled = true; // Disable the button when "No" is selected
-        });
-    });
-</script>
-
-<script>
-    // Initialize Flatpickr for the "Expire Date" input
-    flatpickr("#expire-date", {
-        dateFormat: "m/y",
-        minDate: new Date(),
-        maxDate: new Date().setFullYear(new Date().getFullYear() + 10), // Set the maximum date to 10 years in the future
-        onOpen: function (selectedDates, dateStr, instance) {
-            instance.redraw(); // Redraw the calendar when opened to ensure it's displayed correctly
-        },
-    });
-</script>
 
 
     
