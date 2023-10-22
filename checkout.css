@@ -126,3 +126,10 @@ body {
     background-color: #ccc;
     cursor: not-allowed;
 }
+
+#dropdownIcon{
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 4.5dvi;
+    height: 4dvi;
+}
