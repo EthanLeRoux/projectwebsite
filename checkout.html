@@ -43,11 +43,11 @@
                     <img src="/public/img/icons/dropDownMenu.png" alt="" height="40" width="40" id="dropdownIcon"
                         class="dropdownIcon" onclick="toggleMenu()">
                     <ul id="dropdownMenu">
-                        <li><a href="#home">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#about">About the leather</a></li>
                         <li><a href="#diy">DIY Method</a></li>
                         <li><a href="#B&M">Brick and Mortar</a></li>
-                        <li><a href="#order">Shop Now</a></li>
+                        <li><a href="index.html">Shop Now</a></li>
                     </ul>
                 </div>
             </nav>
@@ -150,11 +150,11 @@
                         </div>
                         <div class="col-6">
                             <label class="form-label" for="creditcard"> Card Number </label>
-                            <input type="text" id="creditcard" class="form-control" placeholder="1111-2222-3333-48" required maxlength="16">
+                            <input type="text" id="creditcard" class="form-control" placeholder="1111-2222-3333-48" required maxlength="19">
                         </div>
                         <div class="col-3">
                             <label class="form-label" for="expiration"> Expiration </label>
-                            <input type="date" id="expiration" class="form-control" placeholder="(MM/YY)" required maxlength="5">
+                            <input type="date" id="expiration" class="form-control" placeholder="(MM/YY)">
                         </div>
                         <div class="col-3">
                             <label class="form-label" for="cvv">CVV </label>
@@ -171,43 +171,24 @@
                     </div>
 
                     <hr>
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Ship Off</button>
+                    <button type="submit" class="btn btn-primary btn-block mb-4" id="shipOffButton">Ship Off</button>
                 </form>
             </div>
         </div>
     </div>
 
     <script>
-        
-        document.addEventListener('DOMContentLoaded', function () {
-    // Get the radio buttons for terms agreement
-    const agreeYes = document.getElementById('agree-yes');
-    const agreeNo = document.getElementById('agree-no');
 
-    // Get the "Ship off" button by its unique class
-    const shipOffBtn = document.querySelector('.ship-off-button');
 
-    // Add an event listener to the radio buttons to check the agreement status
-    agreeYes.addEventListener('change', function () {
-        shipOffBtn.disabled = false; // Enable the button when "Yes" is selected
-    });
-
-    agreeNo.addEventListener('change', function () {
-        shipOffBtn.disabled = true; // Disable the button when "No" is selected
-    });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-const expirationInput = document.getElementById("expiration");
-
-expirationInput.addEventListener("input", function () {
-    const value = expirationInput.value;
-    if (value.length === 2 && !value.includes("/")) {
-        // Automatically add a slash when the user enters the month
-        expirationInput.value = value + "/";
-    }
-});
-});
+        function toggleMenu() {
+            var menu = document.getElementById("dropdownMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    
 
 
 
@@ -236,6 +217,7 @@ document.addEventListener("DOMContentLoaded", function () {
         cardNumberInput.value = cardNumber;
     });
 });
+
 
     </script>
 
