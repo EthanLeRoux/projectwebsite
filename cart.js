@@ -29,7 +29,7 @@ let generateCartItems = () => {
         let { img, price, name } = search;
         return `
       <div class="cart-item">
-        <img width="100" src=${img} alt="" />
+        <img width="150" height="150"src=${img} alt="" />
 
         <div class="details">
         
@@ -49,7 +49,7 @@ let generateCartItems = () => {
             </div>
           </div>
 
-          <h3>$ ${item * price}</h3>
+          <h3>R ${item * price}</h3>
         
         </div>
       </div>
@@ -153,8 +153,10 @@ let TotalAmount = () => {
       .reduce((x, y) => x + y, 0);
 
     return (label.innerHTML = `
-    <h2>Total Bill : $ ${amount}</h2>
+    <h2>Total Bill : R ${amount}</h2>
+    <a href = "checkout.html">
     <button class="checkout">Checkout</button>
+    </a>
     <button onclick="clearCart()" class="removeAll">Clear Cart</button>
     `);
   } else return;
