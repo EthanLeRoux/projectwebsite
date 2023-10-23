@@ -1,0 +1,42 @@
+body {
+    background: url(images/city1.jpeg) 100%;
+    background-size: cover;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: cover;
+    color: whitesmoke;
+    backdrop-filter: blur(4px);
+    
+}
+
+.container{
+    padding-left: 290px;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+.btn {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#dropdownIcon{
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 4.5dvi;
+    height: 4dvi;
+}
+
+#social-media{
+    padding-top: 1000px;
+    padding-left: 70px;
+}

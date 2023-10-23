@@ -31,27 +31,38 @@
      margin-bottom: 30px;
 } */
 
+#dropdownIcon{
+    padding-right: 70px;
+    padding-top: 20px;
+}
+
+.social-media{
+    padding-top: 10px;
+}
 
 .footer .box-container{
     display: flex;
+    color: beige;
     flex-wrap: wrap;
     gap: 0.5rem;
-    background-color: darkgray;
+    background-color: rgb(59, 57, 53);
+    text-decoration: none;
 }
 
-.footer .box-container .box{
+.footer .box-container .studentDetails{
     flex: 25rem;
+    text-decoration: none;
 }
 
-.footer .box-container .box h3{
-    color: #333;
+.footer .box-container .studentDetails h3{
+    color: beige;
     font-size: 1.5rem;
     padding: 0.5rem 0;
 }
 
-.footer .box-container .box a{
+.footer .box-container .studentDetails a{
     display: block;
-    color: black;
+    color: beige;
     font-size: 1rem;
     padding: 0.5rem 0;
 }
@@ -67,7 +78,7 @@
     margin-top: 1.5rem;
     padding-top: 2.5rem;
     font-size: 2rem;
-    color: #333;
+    color: beige;
     border-top: .1rem solid rgba(0, 0, 0, .1);
 
 }
@@ -88,9 +99,9 @@
     border-bottom: 1px solid #ccc; /* Optional: Add a border between dropdown items */
 }
 
-
-
-
+.imgbanner{
+    width: 100%;
+}
 
 
 
