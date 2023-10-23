@@ -32,9 +32,10 @@ nav{
     /* position: relative; */
     background-color: #fff;
     color: #212529;
-    font-size: 30px;
-    padding: 5px;
+    font-size: 20px;
+    padding: 20px;
     border-radius: 4px;
+    position:static;
   }
   
   .cartAmount {
@@ -49,31 +50,10 @@ nav{
   }
   .shop {
     display: grid;
-    grid-template-columns: repeat(4, 223px);
-    gap: 30px;
-    justify-content: center;
-    margin-bottom: 50px;
-<<<<<<< HEAD
-    
-    
-  }.girls {
-    display: grid;
     grid-template-columns: repeat(3, 300px);
     gap: 100px;
     justify-content: center;
     margin-bottom: 50px;
-    
-    
-  }.leatherBag {
-    display: grid;
-    grid-template-columns: repeat(2, 300px);
-    gap: 200px;
-    justify-content: center;
-    margin-bottom: 50px;
-    
-    
-=======
->>>>>>> 42563fa804fee7ea973ea952703ab01a5af555b4
   }
   
   @media (max-width: 1000px) {
@@ -89,8 +69,9 @@ nav{
   }
   
   .item {
-    border: 2px solid #212529;
+    border: 0.5px solid #f7f8f8;
     border-radius: 4px;
+    box-shadow: #212529;
   }
   .item img {
     width: 100%;
@@ -100,20 +81,20 @@ nav{
   .details {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    gap: 10px;
+    justify-content: center;
   }
   
   .price-quantity {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   
   .buttons {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 8px;
     font-size: 16px;
   }
@@ -143,7 +124,7 @@ nav{
   }
   
   .checkout {
-    background-color: green;
+    background-color: black;
   }
   .removeAll {
     background-color: red;
@@ -151,6 +132,7 @@ nav{
   .bi-x-lg {
     color: red;
     font-weight: bold;
+    padding-top: 20px;
   }
   
   
@@ -167,9 +149,9 @@ gap: 15px;
 **/
 
 .cart-item {
-border: 2px solid #212529;
-border-radius: 5px;
-display: flex;
+  border: 0.5px solid #f7f8f8;
+  border-radius: 4px;
+  box-shadow: #212529;
 }
 
 .title-price-x {
@@ -187,10 +169,12 @@ gap: 10px;
 }
 
 .cart-item-price {
-background-color: #212529;
-color: white;
+background-color: white;
+color: black;
+border: 0.5px solid #f7f8f8;
 border-radius: 4px;
-padding: 3px 6px;
+justify-content: center;
+
 }
 
 /*

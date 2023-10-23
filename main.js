@@ -1,8 +1,5 @@
 let shop = document.getElementById("shop");
 
-let girls = document.getElementById("girls");
-let leatherBag = document.getElementById("leatherBag");
-
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
@@ -64,84 +61,6 @@ let generateShop = () => {
 /**
  * test for women
  */
-let generateWomenShop = () => {
-  return (girls.innerHTML = shopWomenData
-    .map((x) => {
-      let { id, img, name,price, desc } = x;
-      let search = basket.find((y) => y.id === id) || [];
-      return `
-    <div id=product-id-${id} class="item">
-      <img width="300" height="300" src=${img} alt="">
-      <div class="details">
-        <h3>${name}</h3>
-        <p>R ${desc} </p>
-
-        <div class="price-quantity">
-          <h3>R ${price} </h3>
-          <div class="buttons">
-            <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
-           
-      <div class="cart">
-      <i onclick="increment(${id})" class="bi bi-cart2"></i>
-        <div id="cartAmount" class="cartAmount">0</div>
-        <div id=${id} class="quantity">${
-          search.item === undefined ? 0 : search.item
-        }</div>
-      </div>
-
-            <i onclick="increment(${id})" class="bi bi-plus-lg"></i>
-          </div>
-        </div>
-      </div>
-  </div>
-    `;
-    })
-    .join(""));
-};
-
-generateWomenShop();
-
-/**
- * bags
- *  */
-
-let generateBagShop = () => {
-  return (leatherBag.innerHTML = shopBagData
-    .map((x) => {
-      let { id, img, name,price, desc } = x;
-      let search = basket.find((y) => y.id === id) || [];
-      return `
-    <div id=product-id-${id} class="item">
-      <img width="300" height="300" src=${img} alt="">
-      <div class="details">
-        <h3>${name}</h3>
-        <p>R ${desc} </p>
-
-        <div class="price-quantity">
-          <h3>R ${price} </h3>
-          <div class="buttons">
-            <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
-           
-      <div class="cart">
-      <i onclick="increment(${id})" class="bi bi-cart2"></i>
-        <div id="cartAmount" class="cartAmount">0</div>
-        <div id=${id} class="quantity">${
-          search.item === undefined ? 0 : search.item
-        }</div>
-      </div>
-
-            <i onclick="increment(${id})" class="bi bi-plus-lg"></i>
-          </div>
-        </div>
-      </div>
-  </div>
-    `;
-    })
-    .join(""));
-};
-
-generateBagShop();
-
 
   /**
    * ! used to decrease the selected product item quantity by 1
