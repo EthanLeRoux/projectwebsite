@@ -30,33 +30,29 @@ nav{
   
 .cart {
     /* position: relative; */
-    
     background-color: #fff;
     color: #212529;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 30px;
+    padding: 5px;
     border-radius: 4px;
-    position:static;
   }
   
   .cartAmount {
-    position: static;
+    position: absolute;
     top: -15px;
     right: -10px;
-    font-size: 10px;
-    background-color: rgb(254, 253, 253);
+    font-size: 16px;
+    background-color: white;
     color: black;
     padding: 3px;
     border-radius: 3px;
   }
   .shop {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-    gap: 100px;
+    grid-template-columns: repeat(4, 223px);
+    gap: 30px;
     justify-content: center;
     margin-bottom: 50px;
-    
-    
   }
   
   @media (max-width: 1000px) {
@@ -72,9 +68,8 @@ nav{
   }
   
   .item {
-    border: 0.5px solid #f7f8f8;
+    border: 2px solid #212529;
     border-radius: 4px;
-    box-shadow: #212529;
   }
   .item img {
     width: 100%;
@@ -90,8 +85,8 @@ nav{
   
   .price-quantity {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
   }
   
@@ -151,11 +146,9 @@ gap: 15px;
 **/
 
 .cart-item {
-  display: grid;
-  grid-template-columns: repeat(3, 300px);
-  gap: 100px;
-  justify-content: center;
-  margin-bottom: 50px;
+border: 2px solid #212529;
+border-radius: 5px;
+display: flex;
 }
 
 .title-price-x {
@@ -170,7 +163,6 @@ justify-content: space-between;
 display: flex;
 align-items: center;
 gap: 10px;
-color: #641414;
 }
 
 .cart-item-price {
