@@ -17,7 +17,6 @@ body {
 .btn {
     background-color: black;
     color: #fff;
-    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -35,8 +34,16 @@ body {
     width: 4.5dvi;
     height: 4dvi;
 }
+.dropdown li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; 
+}
 
 #social-media{
     padding-top: 1000px;
     padding-left: 70px;
+}
+
+.shippingHeader{
+    padding-top: 3dvi;
 }

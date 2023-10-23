@@ -45,7 +45,7 @@
     color: beige;
     flex-wrap: wrap;
     gap: 0.5rem;
-    background-color: rgb(59, 57, 53);
+    background-color: rgb(24, 23, 21);
     text-decoration: none;
 }
 
@@ -96,7 +96,7 @@
 
 .dropdown li {
     padding: 10px;
-    border-bottom: 1px solid #ccc; /* Optional: Add a border between dropdown items */
+    border-bottom: 1px solid #ccc;
 }
 
 .imgbanner{
