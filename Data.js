@@ -1,6 +1,7 @@
 //data for the main page, gets called in the index and cart.js/html
 let shopItemsData =[
     {
+<<<<<<< HEAD
         id: "frh",
         img:"image/Airin_G-1_Black_&_White_Leather_Bomber_Jacket.jpg",
         name: "Airin G-1 Black & White Leather Bomber Jacket",
@@ -56,8 +57,17 @@ let shopItemsData =[
 
     
     }
+=======
+        id: "osgsesgsne",
+        img:"images/L6.png",
+        name: "bag",
+        price: 25,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+
+>>>>>>> 42563fa804fee7ea973ea952703ab01a5af555b4
     
     
+<<<<<<< HEAD
 ]
 let shopWomenData =[
    {
@@ -65,33 +75,40 @@ let shopWomenData =[
         img:"image/Women_Lamarque_Donna_Black_Leather_Jacket.png",
         name: "Women's Lamarque Donna Black Leather Jacket",
         price: 2600,
+=======
+    {
+        id:  "gsegesgse",
+        img:"images/L6.png",
+        name: "bag13",
+        price: 25,
+>>>>>>> 42563fa804fee7ea973ea952703ab01a5af555b4
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 
     },
     
     {
         id:  "segesgseg",
-        img:"image/Womens_Rumy_Maroon_Leather_Biker_Jacket.jpg",
-        name: "Womens Rumy Maroon Leather Biker Jacket",
-        price: 2600,
+        img:"images/L6.png",
+        name: "bdag13",
+        price: 25,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 
     },
     
     {
         id:  "jioanf",
-        img:"image/Womens_Tomachi_Red_Leather_Jacket.jpeg",
-        name: "Womens Tomachi Red Leather Jacket",
-        price: 2600,
+        img:"images/L6.png",
+        name: "bags13",
+        price: 25,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 
     },
     
     {
         id:  "biuabfseb",
-        img:"image/Womens_Vixen_Brown_Classic_Collar_Leather_Jacket.jpg",
-        name: "Womens Vixen Brown Classic Collar Leather Jacket",
-        price: 2600,
+        img:"images/L6.png",
+        name: "bag155",
+        price: 25,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 
 
