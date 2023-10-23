@@ -18,15 +18,7 @@ let shopItemsData =[
 
     
     },
-    {
-        id: "fddf",
-        img:"image/Bowler_Style_Leather_Shoulder_Bag.jpeg",
-        name: "Bowler Style Leather Shoulder Bag",
-        price: 2600,
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-
     
-    },
     {
         id: "ff",
         img:"image/Ionic_Black_Leather_Jacket.jpeg",
@@ -54,24 +46,7 @@ let shopItemsData =[
 
     
     },
-    {
-        id: "lll",
-        img:"image/NeverBasic_RESHOOT_crop_center.jpg",
-        name: "Women's Rumy Black Leather Biker Jacket",
-        price: 2600,
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-
-    
-    },
-    {
-        id: "wowj",
-        img:"image/Plus_Size_Fox_Leather_Jacket.png",
-        name: "Women's Fox Leather Jacket",
-        price: 2600,
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-
-    
-    },
+   ,
     {
         id: "dhuhnk",
         img:"image/Vaxton_Brown_Hybrid_Varsity_Jacket.jpg",
@@ -80,18 +55,12 @@ let shopItemsData =[
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 
     
-    },
-    {
-        id: "nldnka",
-        img:"image/Vintage_Leather_Handbag_Cross_Body_Shoulder_Bag_With_Rivet.jpeg",
-        name: "Vintage Leather Handbag Cross Body Shoulder Bag With Rivet",
-        price: 2600,
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-
+    }
     
-    },
     
-    {
+]
+let shopWomenData =[
+   {
         id:  "wiokdl",
         img:"image/Women_Lamarque_Donna_Black_Leather_Jacket.png",
         name: "Women's Lamarque Donna Black Leather Jacket",
@@ -126,6 +95,61 @@ let shopItemsData =[
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 
 
-    }
+    },
+    {
+        id: "lll",
+        img:"image/NeverBasic_RESHOOT_crop_center.jpg",
+        name: "Women's Rumy Black Leather Biker Jacket",
+        price: 2600,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 
+    
+    },
+    {
+        id: "wowj",
+        img:"image/Plus_Size_Fox_Leather_Jacket.png",
+        name: "Women's Fox Leather Jacket",
+        price: 2600,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+
+    
+    }
+]
+let shopBagData =[
+    {
+        id: "fddf",
+        img:"image/Bowler_Style_Leather_Shoulder_Bag.jpeg",
+        name: "Bowler Style Leather Shoulder Bag",
+        price: 2600,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+
+    
+    },
+    {
+        id: "nldnka",
+        img:"image/Vintage_Leather_Handbag_Cross_Body_Shoulder_Bag_With_Rivet.jpeg",
+        name: "Vintage Leather Handbag Cross Body Shoulder Bag With Rivet",
+        price: 2600,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+
+    
+    },
+    {
+        id: "ndnka",
+        img:"image/L6.png",
+        name: "Vintage Leather Handbag Cross Body Shoulder Bag With Rivet",
+        price: 2600,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+
+    
+    },
+    {
+        id: "ndnka",
+        img:"image/L7.png",
+        name: "Vintage Leather Handbag Cross Body Shoulder Bag With Rivet",
+        price: 2600,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+
+    
+    }
 ]

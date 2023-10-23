@@ -57,6 +57,22 @@ nav{
     margin-bottom: 50px;
     
     
+  }.girls {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 100px;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+    
+  }.leatherBag {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 200px;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+    
   }
   
   @media (max-width: 1000px) {
@@ -141,7 +157,7 @@ nav{
 
 .shopping-cart {
 display: grid;
-grid-template-columns: repeat(1, 320px);
+grid-template-columns: repeat(3, 320px);
 justify-content: center;
 gap: 15px;
 }
