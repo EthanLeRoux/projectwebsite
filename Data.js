@@ -20,8 +20,8 @@ let shopItemsData =[
     },
     {
         id: "fddf",
-        img:"image/Bowler_Style_Leather_Shoulder_Bag.jpeg",
-        name: "Bowler Style Leather Shoulder Bag",
+        img:"image/Vaxton_Brown_Hybrid_Varsity_Jacket.jpg",
+        name: "Vaxton Brown Hybrid Varsity Jacket",
         price: 2600,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 
@@ -74,8 +74,8 @@ let shopItemsData =[
     },
     {
         id: "dhuhnk",
-        img:"image/Vaxton_Brown_Hybrid_Varsity_Jacket.jpg",
-        name: "Vaxton Brown Hybrid Varsity Jacket",
+        img:"image/Women's_Vixen_Brown_Classic_Collar_Leather_Jacket.jpg",
+        name: "Women's Vixen Brown Classic Collar Leather Jacket",
         price: 2600,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 
@@ -83,8 +83,8 @@ let shopItemsData =[
     },
     {
         id: "nldnka",
-        img:"image/Vintage_Leather_Handbag_Cross_Body_Shoulder_Bag_With_Rivet.jpeg",
-        name: "Vintage Leather Handbag Cross Body Shoulder Bag With Rivet",
+        img:"image/Women's_Tomachi_Red_Leather_Jacket.jpeg",
+        name: "Womens Tomachi Red Leather Jacket",
         price: 2600,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 
@@ -111,8 +111,8 @@ let shopItemsData =[
 
     {
         id:  "jioanf",
-        img:"image/Women's_Tomachi_Red_Leather_Jacket.jpeg",
-        name: "Womens Tomachi Red Leather Jacket",
+        img:"image/Vintage_Leather_Handbag_Cross_Body_Shoulder_Bag_With_Rivet.jpeg",
+        name: "Vintage Leather Handbag Cross Body Shoulder Bag With Rivet",
         price: 2600,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 
@@ -120,8 +120,8 @@ let shopItemsData =[
 
     {
         id:  "biuabfseb",
-        img:"image/Women's_Vixen_Brown_Classic_Collar_Leather_Jacket.jpg",
-        name: "Women's Vixen Brown Classic Collar Leather Jacket",
+        img:"image/Bowler_Style_Leather_Shoulder_Bag.jpeg",
+        name: "Bowler Style Leather Shoulder Bag",
         price: 2600,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 
