@@ -221,12 +221,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
     </script>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Get the radio buttons for terms agreement
+    const agreeYes = document.getElementById('agree-yes');
+    const agreeNo = document.getElementById('agree-no');
+
+    // Get the "Ship off" button by its unique class
+    const shipOffBtn = document.getElementById('shipOffButton');
+
+    // Add an event listener to the radio buttons to check the agreement status
+    agreeYes.addEventListener('click', function () {
+        shipOffBtn.style.display = "block"; // Enable the button when "Yes" is selected
+    });
+
+    agreeNo.addEventListener('click', function () {
+        shipOffBtn.style.display = "none"; // Disable the button when "No" is selected
+    });
+});
+</script>
+
 </body>
 
 </html>
-    
-
-
-
-
-    
