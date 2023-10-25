@@ -211,9 +211,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Credit card number formatting
     cardNumberInput.addEventListener("input", function () {
         let cardNumber = cardNumberInput.value;
-        cardNumber = cardNumber.replace(/\D/g, ''); // Remove non-numeric characters
+        cardNumber = cardNumber.replace(/\D/g, ''); 
         if (cardNumber.length > 4) {
-            cardNumber = cardNumber.match(/.{1,4}/g).join('-'); // Add hyphens every 4 digits
+            cardNumber = cardNumber.match(/.{1,4}/g).join('-'); 
         }
         cardNumberInput.value = cardNumber;
     });
