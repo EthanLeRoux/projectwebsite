@@ -19,7 +19,6 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
         <link rel="stylesheet" href="index.html">
         <link rel="stylesheet" href="thankyou.css">
-        <link rel="stylesheet" href="list.css">
         <link rel="stylesheet" href="public/css/main.css">
         <link rel="stylesheet" href="public/css/button.css">
         <link rel="stylesheet" href="public/css/head.css">
@@ -54,15 +53,26 @@
                 
     </header>
 
-    <div class="popup">
+    <div class="popup" action="index.html">
         <img src="images/check.png">
         <h2> Thank you</h2>
         <p>Your order has been successfully placed. Thanks!</p>
-        <button type="button">OK</button>
+        <button type="button" onclick="window.location.href = 'index.html'">OK</button>
         <video autoplay loop muted plays-inline class="clip">
             <source src="images/video.mp4" type="video/mp4">
         </video>
     </div>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("dropdownMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
     
 </body>
 

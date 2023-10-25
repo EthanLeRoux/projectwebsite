@@ -1,0 +1,65 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+#store-info {
+    border: 2px solid #333;
+
+}
+#store-hours{
+    border: 2px solid #333;
+}
+
+#contact-info{
+    border: 2px solid #333;
+}
+
+#store-map iframe {
+    width: 100%;
+    height: 350px;
+
+}
+
+a {
+    color: #0070c9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+strong {
+    color: #333;
+}
