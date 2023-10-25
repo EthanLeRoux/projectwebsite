@@ -122,7 +122,17 @@ let shopItemsData =[
         id:  "biuabfseb",
         img:"image/Bowler_Style_Leather_Shoulder_Bag.jpeg",
         name: "Bowler Style Leather Shoulder Bag",
-        price: 2600,
+        price: 2200,
+        desc: "Rebels never die.",
+
+
+    },
+
+    {
+        id:  "szxuabdsa",
+        img:"image/L6.png",
+        name: "Classic Leather Shoulder Bag",
+        price: 2100,
         desc: "Rebels never die.",
 
 
