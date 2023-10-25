@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="public/css/footer.css">
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-    <link rel="stylesheet" href="checkout.html">
     <title>Brick and Mortar Store</title>
     <link rel="stylesheet" href="brickmortar.css">
 </head>
@@ -83,7 +82,33 @@
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </section>
+        
+        <script>
+        function toggleMenu() {
+            var menu = document.getElementById("dropdownMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
     </main>
+
+    
+
+
 </body>
 
 </html>
