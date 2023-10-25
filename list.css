@@ -1,6 +1,21 @@
 .content{
     margin: 70px;
 }
+.image-container {
+    position: relative; /* Set the container to a relative position */
+}
+
+.shop-now-button {
+    position: absolute; 
+    bottom: 60px;
+    left: 70px; 
+    background-color: #050505; 
+    color: #fff; 
+    padding: 10px 20px; 
+    text-decoration: none;
+}
+
+
 .fixed-page {
     position: fixed;
     width: 100%;
