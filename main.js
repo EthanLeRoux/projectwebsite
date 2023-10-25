@@ -39,7 +39,6 @@ let generateShop = () => {
               <div id=${id} class="quantity">${
           search.item === undefined ? 0 : search.item
         }</div>
-        <button id="test_button"  onclick="increment(${id})" class="test_btn">Add to Cart</button>
         <a href="cart.html">
         <div class="cart">
         <i onclick="increment(${id})" class="bi bi-cart2"></i>
